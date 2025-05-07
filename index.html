@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=96tYtKVq4yYSu-eHMQePtjJ-cSw7fgYhKy6LABGfCPivGJSGm5dK1Dl8jtgBrmk0aS5GQhKPrdoldHxAruEIKHwUR_9KOLb2q2_qluPxj6lNmPHYUwZFrYsP5W7eMMKykSACOLTweKJ3ATVKgP7L7kgnjM0obQX6OocdxOWPXVwBNRPuAOaM9G2Y3nMrTCGTDb_qkbUBH7JmTQzV9FE0zWzYjetFp_QF9WI-3C_U9frNnRRwGe5Gerjw8i9z43jXS-NXaA747O-Be0LxkD74XNzWkzIwJlyI-KDtjLXYpePqyRLYEljzx-BdlQHiuC6_KoFBBNTNQEqU8aQia7CzkstUW12aVKgaBKNz9gOeSxvtfYUjqr1Jv4pPdwKKWkWgxYCc1sniKp7RLlANpIxjdoQuOKK1WncPV97Dpxkj_BrHb_vq-ptQybeiM0smki-dtPrmFjm5foAtCICXN_m1x_15WYRWd7aorg7cTm2qPgGRDcJl0qSP9-SfYJDQ8sXYhWZjWivFNGn9eVtmt51HbZUrCsWpi4_Oa-2LsEzyvMEg-l3QugoeofHlXn6hT-Z2MHrge4xl1oVY1hyU-BrF2HFNPyGmuBT90nkt84MWEm_BS3WydcV57Tjiob3on-uTZfjosAuxtCNdjVXvspFU8T9paFQ2M895j6xiyt_GIp-ErkhqfzeHB3ORGHRG_HWH-uxKrTvCToOnMsykWRsw61-yBEZtyi6qzXF2qcuOoPcG0NRUOiBcbjNYlVQ9d8RX2y-1BTbrnpYlnVdAtlZg66i57XTK6TZOKnsfU5TkHbg38LmuYX_gUFuAZN7-VCd5M0KESgRW4Faer0FScNCKMuRpr_Htw-8bcKex8DWQH3iqKpZvEszIUlbnbbZBRZt59W70mufi_U2fMm1tBfqLkFqAQlNqpjk6qkbfNNy35a-UJX9tBJ-gmUuV5nTeC1EhQtO9FAO4iLgwuSFKU4cFXOlgOUxX13T2VepCbgKzuLJcjDXSizx71Itglrezq7N_BYeupfwUktDnwVzzJINDD3-ohMESqzabNA0H8P-IZACilySyve0KXZzPy3cWHZznNkeVzXF7t99moFh33ZO5uLufF1K4eDndjmDmULHr5XeljheX-gqQfUDw-q3CvGoSX1t31OsjJwOO9w3PBtVze8CKgnsENE1OSvopxwjUvPyEKtGnsuz4M4rmIcfW6KWabYXUcLRgVL5tf5Mucllo56a0aNFgD26uuF3BJzU7p8QZYFp_kOGA4qZi3j8bnGG6hAEOLi_7hd-aSnhhn7pZyqhfYP3AOZcqxfk38xp86x2aKNfPGrNS39sH9JyBiAAXT2pJkSDRqXYzBRM0fCK9DzswmTq4PW5E4gQ4J_k1bST66NCxTAyUv6H2CSWKOc7c-yBf8Ewl5_-hvryTvIH7kCmJ90-9tO5cUJ_QL8IU1LsJTsxhE4TY-NqBtbCw6yCIK0HtOIMDdum_BZFEftc2RBU1qc587rHc_1RNgW-uixaGyj9i2m5E1zZPMWWceDLUrq2pZO7AJ7bvVCjmmvUXQg1J2YnW8J34YoEek7JBhVsHfYl4_4bL1-uLVq4qstw-LSY3ZTzFEwmTJo9Up7J3S5tydpBL-Hnaxii0YMlE1wfX7J0vQWRzcWyJ1LRdEeWfHyEoO5zuZzPWUwpfv1eFPEfwVrj5ckizyjass88y3Swu4wL2KjS2IO56fWYrL03o" nonce="30e3a67d38065039ab2ae15e25282c30" charset="UTF-8"></script></head>
+  <body>
+
+
+<body>
+  <!-- Name Input Screen -->
+  <div class="name-popup active">
+    <h2>Enter Your Name</h2>
+    <input type="text" class="username-input" placeholder="Your name" />
+    <div class="name-error" style="color: white; margin-top: 5px; font-size: 14px;"></div>
+    <button class="continue-btn">Continue</button>
+  </div>
+
+  <!-- Config Screen -->
+  <div class="config-popup">
+    <p class="welcome-message"></p>
+
+    <h3>Select Category</h3>
+    <div class="category-options">
+      <button class="category-option">Programming</button>
+      <button class="category-option">Mathematics</button>
+      <button class="category-option">Geography</button>
+      <button class="category-option">Entertainment</button>
+    </div>
+
+    <h3>Number of Questions</h3>
+    <div class="question-options">
+      <button class="question-option">5</button>
+      <button class="question-option">10</button>
+      <button class="question-option">15</button>
+      <button class="question-option">20</button>
+      <button class="question-option">25</button>
+    </div>
+
+    <button class="start-quiz-btn">Start Quiz</button>
+  </div>
+
+  <!-- Quiz Screen -->
+  <div class="quiz-popup">
+    <div class="quiz-timer">
+      Time Left: <span class="timer-duration">15s</span>
+    </div>
+    <div class="question-box">
+      <p class="question-text"></p>
+      <ul class="answer-options"></ul>
+    </div>
+    <div class="question-status"></div>
+    <button class="next-question-btn">Next</button>
+  </div>
+
+  <!-- Result Screen -->
+  <div class="result-popup">
+    <p class="result-message"></p>
+    <button class="try-again-btn">Try Again</button>
+  </div>
+</body>
+
+    <!-- Scripts -->
+    <script src="questions.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
