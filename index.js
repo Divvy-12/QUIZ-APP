@@ -37,7 +37,6 @@ const getTimeLimit = () => {
 };
 
 // Validate Name Input
-// Validate Name Input (Corrected)
 const validateName = () => {
   username = usernameInput.value.trim();
 
